@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block title %}Danh sách độc giả{% endblock %}
+{% block content %}
+<div class="container mt-4">
+  <h2 class="mb-4">📖 Danh sách độc giả</h2>
+  <div class="text-end mb-3">
+    <a href="{% url 'borrower_create' %}" class="btn btn-success">➕ Thêm độc giả</a>
+  </div>
+  <table class="table table-striped table-hover">
+    <thead class="table-warning">
+      <tr>
+        <th class="text-start">Tên</th>
+        <th class="text-start">Email</th>
+        <th class="text-start">SĐT</th>
+        <th class="text-end">Hành động</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for borrower in borrowers %}
+      <tr>
+        <td class="text-start">{{ borrower.name }}</td>
+        <td class="text-start">{{ borrower.email }}</td>
+        <td class="text-start">{{ borrower.phone }}</td>
+        <td class="text-end">
+          <div class="d-inline-flex gap-2 justify-content-end">
+            <a href="{% url 'borrower_update' borrower.pk %}" class="btn btn-warning btn-sm">✏️ Sửa</a>
+            <a href="{% url 'borrower_delete' borrower.pk %}" class="btn btn-danger btn-sm">🗑️ Xóa</a>
+          </div>
+        </td>
+      </tr>
+      {% empty %}
+      <tr><td colspan="4" class="text-center">Chưa có độc giả nào.</td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endblock %}

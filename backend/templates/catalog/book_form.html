@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Thêm sách{% endblock %}
+{% block content %}
+<h2>Thêm sách mới</h2>
+<form method="post">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button type="submit" class="btn btn-success">Lưu</button>
+  <a href="{% url 'book_list' %}" class="btn btn-secondary">Hủy</a>
+</form>
+{% endblock %}

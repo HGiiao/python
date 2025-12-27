@@ -1,0 +1,102 @@
+{% extends "base.html" %}
+{% block title %}Dashboard{% endblock %}
+{% block content %}
+<h2 class="mb-4">📊 Thống kê hệ thống</h2>
+
+<!-- Cards thống kê -->
+<div class="row text-center mb-5">
+  <div class="col-md-3">
+    <div class="card text-bg-primary shadow">
+      <div class="card-body">
+        <h5 class="card-title">📚 Sách</h5>
+        <p class="fs-2">{{ stats.books }}</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="card text-bg-success shadow">
+      <div class="card-body">
+        <h5 class="card-title">✍️ Tác giả</h5>
+        <p class="fs-2">{{ stats.authors }}</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="card text-bg-warning shadow">
+      <div class="card-body">
+        <h5 class="card-title">👥 Độc giả</h5>
+        <p class="fs-2">{{ stats.borrowers }}</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="card text-bg-danger shadow">
+      <div class="card-body">
+        <h5 class="card-title">📖 Lượt mượn</h5>
+        <p class="fs-2">{{ stats.loans }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Biểu đồ Chart.js -->
+<div class="row">
+  <div class="col-md-6">
+    <div class="card shadow mb-4">
+      <div class="card-body">
+        <h5 class="card-title">Biểu đồ số lượng</h5>
+        <canvas id="barChart"></canvas>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="card shadow mb-4">
+      <div class="card-body">
+        <h5 class="card-title">Tỉ lệ phần trăm</h5>
+        <canvas id="pieChart"></canvas>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+  const dataCounts = {
+    books: {{ stats.books }},
+    authors: {{ stats.authors }},
+    borrowers: {{ stats.borrowers }},
+    loans: {{ stats.loans }}
+  };
+
+  // Biểu đồ cột
+  new Chart(document.getElementById('barChart'), {
+    type: 'bar',
+    data: {
+      labels: ['Sách', 'Tác giả', 'Độc giả', 'Lượt mượn'],
+      datasets: [{
+        label: 'Số lượng',
+        data: [dataCounts.books, dataCounts.authors, dataCounts.borrowers, dataCounts.loans],
+        backgroundColor: ['#0d6efd','#198754','#ffc107','#dc3545']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: { legend: { display: false } }
+    }
+  });
+
+  // Biểu đồ tròn
+  new Chart(document.getElementById('pieChart'), {
+    type: 'pie',
+    data: {
+      labels: ['Sách', 'Tác giả', 'Độc giả', 'Lượt mượn'],
+      datasets: [{
+        data: [dataCounts.books, dataCounts.authors, dataCounts.borrowers, dataCounts.loans],
+        backgroundColor: ['#0d6efd','#198754','#ffc107','#dc3545']
+      }]
+    },
+    options: { responsive: true }
+  });
+</script>
+{% endblock %}

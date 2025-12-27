@@ -1,0 +1,1712 @@
+[
+  {
+    "model": "catalog.author",
+    "pk": 1,
+    "fields": {
+      "name": "Tác giả 1",
+      "birth_year": 1972
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 2,
+    "fields": {
+      "name": "Tác giả 2",
+      "birth_year": 1957
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 3,
+    "fields": {
+      "name": "Tác giả 3",
+      "birth_year": 1940
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 4,
+    "fields": {
+      "name": "Tác giả 4",
+      "birth_year": 1945
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 5,
+    "fields": {
+      "name": "Tác giả 5",
+      "birth_year": 1970
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 6,
+    "fields": {
+      "name": "Tác giả 6",
+      "birth_year": 1969
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 7,
+    "fields": {
+      "name": "Tác giả 7",
+      "birth_year": 1972
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 8,
+    "fields": {
+      "name": "Tác giả 8",
+      "birth_year": 1986
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 9,
+    "fields": {
+      "name": "Tác giả 9",
+      "birth_year": 1965
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 10,
+    "fields": {
+      "name": "Tác giả 10",
+      "birth_year": 1943
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 11,
+    "fields": {
+      "name": "Tác giả 11",
+      "birth_year": 1941
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 12,
+    "fields": {
+      "name": "Tác giả 12",
+      "birth_year": 1960
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 13,
+    "fields": {
+      "name": "Tác giả 13",
+      "birth_year": 1948
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 14,
+    "fields": {
+      "name": "Tác giả 14",
+      "birth_year": 1964
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 15,
+    "fields": {
+      "name": "Tác giả 15",
+      "birth_year": 1966
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 16,
+    "fields": {
+      "name": "Tác giả 16",
+      "birth_year": 1967
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 17,
+    "fields": {
+      "name": "Tác giả 17",
+      "birth_year": 1981
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 18,
+    "fields": {
+      "name": "Tác giả 18",
+      "birth_year": 1969
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 19,
+    "fields": {
+      "name": "Tác giả 19",
+      "birth_year": 1967
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 20,
+    "fields": {
+      "name": "Tác giả 20",
+      "birth_year": 1982
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 21,
+    "fields": {
+      "name": "Tác giả 21",
+      "birth_year": 1961
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 22,
+    "fields": {
+      "name": "Tác giả 22",
+      "birth_year": 1947
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 23,
+    "fields": {
+      "name": "Tác giả 23",
+      "birth_year": 1941
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 24,
+    "fields": {
+      "name": "Tác giả 24",
+      "birth_year": 1970
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 25,
+    "fields": {
+      "name": "Tác giả 25",
+      "birth_year": 1980
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 26,
+    "fields": {
+      "name": "Tác giả 26",
+      "birth_year": 1956
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 27,
+    "fields": {
+      "name": "Tác giả 27",
+      "birth_year": 1976
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 28,
+    "fields": {
+      "name": "Tác giả 28",
+      "birth_year": 1941
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 29,
+    "fields": {
+      "name": "Tác giả 29",
+      "birth_year": 1960
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 30,
+    "fields": {
+      "name": "Tác giả 30",
+      "birth_year": 1983
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 31,
+    "fields": {
+      "name": "Tác giả 31",
+      "birth_year": 1946
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 32,
+    "fields": {
+      "name": "Tác giả 32",
+      "birth_year": 1984
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 33,
+    "fields": {
+      "name": "Tác giả 33",
+      "birth_year": 1940
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 34,
+    "fields": {
+      "name": "Tác giả 34",
+      "birth_year": 1970
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 35,
+    "fields": {
+      "name": "Tác giả 35",
+      "birth_year": 1943
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 36,
+    "fields": {
+      "name": "Tác giả 36",
+      "birth_year": 1983
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 37,
+    "fields": {
+      "name": "Tác giả 37",
+      "birth_year": 1980
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 38,
+    "fields": {
+      "name": "Tác giả 38",
+      "birth_year": 1979
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 39,
+    "fields": {
+      "name": "Tác giả 39",
+      "birth_year": 1987
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 40,
+    "fields": {
+      "name": "Tác giả 40",
+      "birth_year": 1983
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 1,
+    "fields": {
+      "name": "Thể loại 1"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 2,
+    "fields": {
+      "name": "Thể loại 2"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 3,
+    "fields": {
+      "name": "Thể loại 3"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 4,
+    "fields": {
+      "name": "Thể loại 4"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 5,
+    "fields": {
+      "name": "Thể loại 5"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 6,
+    "fields": {
+      "name": "Thể loại 6"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 7,
+    "fields": {
+      "name": "Thể loại 7"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 8,
+    "fields": {
+      "name": "Thể loại 8"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 9,
+    "fields": {
+      "name": "Thể loại 9"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 10,
+    "fields": {
+      "name": "Thể loại 10"
+    }
+  },
+  {
+    "model": "catalog.publisher",
+    "pk": 1,
+    "fields": {
+      "name": "NXB 1",
+      "address": "Địa chỉ 1"
+    }
+  },
+  {
+    "model": "catalog.publisher",
+    "pk": 2,
+    "fields": {
+      "name": "NXB 2",
+      "address": "Địa chỉ 2"
+    }
+  },
+  {
+    "model": "catalog.publisher",
+    "pk": 3,
+    "fields": {
+      "name": "NXB 3",
+      "address": "Địa chỉ 3"
+    }
+  },
+  {
+    "model": "catalog.publisher",
+    "pk": 4,
+    "fields": {
+      "name": "NXB 4",
+      "address": "Địa chỉ 4"
+    }
+  },
+  {
+    "model": "catalog.publisher",
+    "pk": 5,
+    "fields": {
+      "name": "NXB 5",
+      "address": "Địa chỉ 5"
+    }
+  },
+  {
+    "model": "catalog.publisher",
+    "pk": 6,
+    "fields": {
+      "name": "NXB 6",
+      "address": "Địa chỉ 6"
+    }
+  },
+  {
+    "model": "catalog.publisher",
+    "pk": 7,
+    "fields": {
+      "name": "NXB 7",
+      "address": "Địa chỉ 7"
+    }
+  },
+  {
+    "model": "catalog.publisher",
+    "pk": 8,
+    "fields": {
+      "name": "NXB 8",
+      "address": "Địa chỉ 8"
+    }
+  },
+  {
+    "model": "catalog.publisher",
+    "pk": 9,
+    "fields": {
+      "name": "NXB 9",
+      "address": "Địa chỉ 9"
+    }
+  },
+  {
+    "model": "catalog.publisher",
+    "pk": 10,
+    "fields": {
+      "name": "NXB 10",
+      "address": "Địa chỉ 10"
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 1,
+    "fields": {
+      "title": "Sách 1",
+      "author": 34,
+      "category": 8,
+      "publisher": 7,
+      "publish_year": 1988,
+      "quantity": 6
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 2,
+    "fields": {
+      "title": "Sách 2",
+      "author": 4,
+      "category": 7,
+      "publisher": 2,
+      "publish_year": 1987,
+      "quantity": 14
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 3,
+    "fields": {
+      "title": "Sách 3",
+      "author": 18,
+      "category": 9,
+      "publisher": 2,
+      "publish_year": 1998,
+      "quantity": 7
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 4,
+    "fields": {
+      "title": "Sách 4",
+      "author": 40,
+      "category": 2,
+      "publisher": 2,
+      "publish_year": 2022,
+      "quantity": 2
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 5,
+    "fields": {
+      "title": "Sách 5",
+      "author": 33,
+      "category": 6,
+      "publisher": 3,
+      "publish_year": 2001,
+      "quantity": 14
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 6,
+    "fields": {
+      "title": "Sách 6",
+      "author": 18,
+      "category": 3,
+      "publisher": 3,
+      "publish_year": 1985,
+      "quantity": 12
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 7,
+    "fields": {
+      "title": "Sách 7",
+      "author": 25,
+      "category": 10,
+      "publisher": 8,
+      "publish_year": 1996,
+      "quantity": 2
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 8,
+    "fields": {
+      "title": "Sách 8",
+      "author": 3,
+      "category": 4,
+      "publisher": 7,
+      "publish_year": 2002,
+      "quantity": 12
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 9,
+    "fields": {
+      "title": "Sách 9",
+      "author": 34,
+      "category": 7,
+      "publisher": 7,
+      "publish_year": 2008,
+      "quantity": 14
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 10,
+    "fields": {
+      "title": "Sách 10",
+      "author": 8,
+      "category": 6,
+      "publisher": 10,
+      "publish_year": 2019,
+      "quantity": 20
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 11,
+    "fields": {
+      "title": "Sách 11",
+      "author": 6,
+      "category": 1,
+      "publisher": 3,
+      "publish_year": 1991,
+      "quantity": 17
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 12,
+    "fields": {
+      "title": "Sách 12",
+      "author": 34,
+      "category": 5,
+      "publisher": 2,
+      "publish_year": 1982,
+      "quantity": 12
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 13,
+    "fields": {
+      "title": "Sách 13",
+      "author": 30,
+      "category": 4,
+      "publisher": 2,
+      "publish_year": 1998,
+      "quantity": 12
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 14,
+    "fields": {
+      "title": "Sách 14",
+      "author": 14,
+      "category": 2,
+      "publisher": 4,
+      "publish_year": 2008,
+      "quantity": 8
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 15,
+    "fields": {
+      "title": "Sách 15",
+      "author": 30,
+      "category": 2,
+      "publisher": 3,
+      "publish_year": 1992,
+      "quantity": 9
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 16,
+    "fields": {
+      "title": "Sách 16",
+      "author": 4,
+      "category": 8,
+      "publisher": 1,
+      "publish_year": 1999,
+      "quantity": 5
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 17,
+    "fields": {
+      "title": "Sách 17",
+      "author": 7,
+      "category": 3,
+      "publisher": 5,
+      "publish_year": 1996,
+      "quantity": 5
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 18,
+    "fields": {
+      "title": "Sách 18",
+      "author": 31,
+      "category": 5,
+      "publisher": 5,
+      "publish_year": 1985,
+      "quantity": 14
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 19,
+    "fields": {
+      "title": "Sách 19",
+      "author": 8,
+      "category": 7,
+      "publisher": 4,
+      "publish_year": 2002,
+      "quantity": 1
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 20,
+    "fields": {
+      "title": "Sách 20",
+      "author": 5,
+      "category": 7,
+      "publisher": 2,
+      "publish_year": 2018,
+      "quantity": 9
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 21,
+    "fields": {
+      "title": "Sách 21",
+      "author": 38,
+      "category": 7,
+      "publisher": 9,
+      "publish_year": 2004,
+      "quantity": 20
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 22,
+    "fields": {
+      "title": "Sách 22",
+      "author": 19,
+      "category": 2,
+      "publisher": 4,
+      "publish_year": 1984,
+      "quantity": 19
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 23,
+    "fields": {
+      "title": "Sách 23",
+      "author": 3,
+      "category": 3,
+      "publisher": 4,
+      "publish_year": 1984,
+      "quantity": 14
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 24,
+    "fields": {
+      "title": "Sách 24",
+      "author": 36,
+      "category": 9,
+      "publisher": 9,
+      "publish_year": 2000,
+      "quantity": 4
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 25,
+    "fields": {
+      "title": "Sách 25",
+      "author": 7,
+      "category": 7,
+      "publisher": 10,
+      "publish_year": 2019,
+      "quantity": 1
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 26,
+    "fields": {
+      "title": "Sách 26",
+      "author": 22,
+      "category": 1,
+      "publisher": 9,
+      "publish_year": 2015,
+      "quantity": 7
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 27,
+    "fields": {
+      "title": "Sách 27",
+      "author": 24,
+      "category": 7,
+      "publisher": 5,
+      "publish_year": 2004,
+      "quantity": 8
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 28,
+    "fields": {
+      "title": "Sách 28",
+      "author": 28,
+      "category": 2,
+      "publisher": 10,
+      "publish_year": 2017,
+      "quantity": 10
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 29,
+    "fields": {
+      "title": "Sách 29",
+      "author": 37,
+      "category": 6,
+      "publisher": 3,
+      "publish_year": 2001,
+      "quantity": 11
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 30,
+    "fields": {
+      "title": "Sách 30",
+      "author": 27,
+      "category": 6,
+      "publisher": 8,
+      "publish_year": 2010,
+      "quantity": 1
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 31,
+    "fields": {
+      "title": "Sách 31",
+      "author": 15,
+      "category": 5,
+      "publisher": 7,
+      "publish_year": 2006,
+      "quantity": 6
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 32,
+    "fields": {
+      "title": "Sách 32",
+      "author": 30,
+      "category": 4,
+      "publisher": 3,
+      "publish_year": 2024,
+      "quantity": 2
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 33,
+    "fields": {
+      "title": "Sách 33",
+      "author": 8,
+      "category": 1,
+      "publisher": 5,
+      "publish_year": 2010,
+      "quantity": 8
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 34,
+    "fields": {
+      "title": "Sách 34",
+      "author": 26,
+      "category": 3,
+      "publisher": 9,
+      "publish_year": 2024,
+      "quantity": 20
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 35,
+    "fields": {
+      "title": "Sách 35",
+      "author": 16,
+      "category": 2,
+      "publisher": 2,
+      "publish_year": 2016,
+      "quantity": 11
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 36,
+    "fields": {
+      "title": "Sách 36",
+      "author": 19,
+      "category": 10,
+      "publisher": 3,
+      "publish_year": 1992,
+      "quantity": 17
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 37,
+    "fields": {
+      "title": "Sách 37",
+      "author": 3,
+      "category": 4,
+      "publisher": 5,
+      "publish_year": 1987,
+      "quantity": 16
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 38,
+    "fields": {
+      "title": "Sách 38",
+      "author": 30,
+      "category": 4,
+      "publisher": 1,
+      "publish_year": 1982,
+      "quantity": 15
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 39,
+    "fields": {
+      "title": "Sách 39",
+      "author": 26,
+      "category": 3,
+      "publisher": 4,
+      "publish_year": 2012,
+      "quantity": 1
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 40,
+    "fields": {
+      "title": "Sách 40",
+      "author": 34,
+      "category": 9,
+      "publisher": 3,
+      "publish_year": 1988,
+      "quantity": 3
+    }
+  },
+  {
+    "model": "catalog.borrower",
+    "pk": 1,
+    "fields": {
+      "name": "Độc giả 1",
+      "email": "reader1@example.com",
+      "phone": "0900000001"
+    }
+  },
+  {
+    "model": "catalog.borrower",
+    "pk": 2,
+    "fields": {
+      "name": "Độc giả 2",
+      "email": "reader2@example.com",
+      "phone": "0900000002"
+    }
+  },
+  {
+    "model": "catalog.borrower",
+    "pk": 3,
+    "fields": {
+      "name": "Độc giả 3",
+      "email": "reader3@example.com",
+      "phone": "0900000003"
+    }
+  },
+  {
+    "model": "catalog.borrower",
+    "pk": 4,
+    "fields": {
+      "name": "Độc giả 4",
+      "email": "reader4@example.com",
+      "phone": "0900000004"
+    }
+  },
+  {
+    "model": "catalog.borrower",
+    "pk": 5,
+    "fields": {
+      "name": "Độc giả 5",
+      "email": "reader5@example.com",
+      "phone": "0900000005"
+    }
+  },
+  {
+    "model": "catalog.borrower",
+    "pk": 6,
+    "fields": {
+      "name": "Độc giả 6",
+      "email": "reader6@example.com",
+      "phone": "0900000006"
+    }
+  },
+  {
+    "model": "catalog.borrower",
+    "pk": 7,
+    "fields": {
+      "name": "Độc giả 7",
+      "email": "reader7@example.com",
+      "phone": "0900000007"
+    }
+  },
+  {
+    "model": "catalog.borrower",
+    "pk": 8,
+    "fields": {
+      "name": "Độc giả 8",
+      "email": "reader8@example.com",
+      "phone": "0900000008"
+    }
+  },
+  {
+    "model": "catalog.borrower",
+    "pk": 9,
+    "fields": {
+      "name": "Độc giả 9",
+      "email": "reader9@example.com",
+      "phone": "0900000009"
+    }
+  },
+  {
+    "model": "catalog.borrower",
+    "pk": 10,
+    "fields": {
+      "name": "Độc giả 10",
+      "email": "reader10@example.com",
+      "phone": "0900000010"
+    }
+  },
+  {
+    "model": "catalog.borrower",
+    "pk": 11,
+    "fields": {
+      "name": "Độc giả 11",
+      "email": "reader11@example.com",
+      "phone": "0900000011"
+    }
+  },
+  {
+    "model": "catalog.borrower",
+    "pk": 12,
+    "fields": {
+      "name": "Độc giả 12",
+      "email": "reader12@example.com",
+      "phone": "0900000012"
+    }
+  },
+  {
+    "model": "catalog.borrower",
+    "pk": 13,
+    "fields": {
+      "name": "Độc giả 13",
+      "email": "reader13@example.com",
+      "phone": "0900000013"
+    }
+  },
+  {
+    "model": "catalog.borrower",
+    "pk": 14,
+    "fields": {
+      "name": "Độc giả 14",
+      "email": "reader14@example.com",
+      "phone": "0900000014"
+    }
+  },
+  {
+    "model": "catalog.borrower",
+    "pk": 15,
+    "fields": {
+      "name": "Độc giả 15",
+      "email": "reader15@example.com",
+      "phone": "0900000015"
+    }
+  },
+  {
+    "model": "catalog.borrower",
+    "pk": 16,
+    "fields": {
+      "name": "Độc giả 16",
+      "email": "reader16@example.com",
+      "phone": "0900000016"
+    }
+  },
+  {
+    "model": "catalog.borrower",
+    "pk": 17,
+    "fields": {
+      "name": "Độc giả 17",
+      "email": "reader17@example.com",
+      "phone": "0900000017"
+    }
+  },
+  {
+    "model": "catalog.borrower",
+    "pk": 18,
+    "fields": {
+      "name": "Độc giả 18",
+      "email": "reader18@example.com",
+      "phone": "0900000018"
+    }
+  },
+  {
+    "model": "catalog.borrower",
+    "pk": 19,
+    "fields": {
+      "name": "Độc giả 19",
+      "email": "reader19@example.com",
+      "phone": "0900000019"
+    }
+  },
+  {
+    "model": "catalog.borrower",
+    "pk": 20,
+    "fields": {
+      "name": "Độc giả 20",
+      "email": "reader20@example.com",
+      "phone": "0900000020"
+    }
+  },
+  {
+    "model": "catalog.borrower",
+    "pk": 21,
+    "fields": {
+      "name": "Độc giả 21",
+      "email": "reader21@example.com",
+      "phone": "0900000021"
+    }
+  },
+  {
+    "model": "catalog.borrower",
+    "pk": 22,
+    "fields": {
+      "name": "Độc giả 22",
+      "email": "reader22@example.com",
+      "phone": "0900000022"
+    }
+  },
+  {
+    "model": "catalog.borrower",
+    "pk": 23,
+    "fields": {
+      "name": "Độc giả 23",
+      "email": "reader23@example.com",
+      "phone": "0900000023"
+    }
+  },
+  {
+    "model": "catalog.borrower",
+    "pk": 24,
+    "fields": {
+      "name": "Độc giả 24",
+      "email": "reader24@example.com",
+      "phone": "0900000024"
+    }
+  },
+  {
+    "model": "catalog.borrower",
+    "pk": 25,
+    "fields": {
+      "name": "Độc giả 25",
+      "email": "reader25@example.com",
+      "phone": "0900000025"
+    }
+  },
+  {
+    "model": "catalog.borrower",
+    "pk": 26,
+    "fields": {
+      "name": "Độc giả 26",
+      "email": "reader26@example.com",
+      "phone": "0900000026"
+    }
+  },
+  {
+    "model": "catalog.borrower",
+    "pk": 27,
+    "fields": {
+      "name": "Độc giả 27",
+      "email": "reader27@example.com",
+      "phone": "0900000027"
+    }
+  },
+  {
+    "model": "catalog.borrower",
+    "pk": 28,
+    "fields": {
+      "name": "Độc giả 28",
+      "email": "reader28@example.com",
+      "phone": "0900000028"
+    }
+  },
+  {
+    "model": "catalog.borrower",
+    "pk": 29,
+    "fields": {
+      "name": "Độc giả 29",
+      "email": "reader29@example.com",
+      "phone": "0900000029"
+    }
+  },
+  {
+    "model": "catalog.borrower",
+    "pk": 30,
+    "fields": {
+      "name": "Độc giả 30",
+      "email": "reader30@example.com",
+      "phone": "0900000030"
+    }
+  },
+  {
+    "model": "catalog.borrower",
+    "pk": 31,
+    "fields": {
+      "name": "Độc giả 31",
+      "email": "reader31@example.com",
+      "phone": "0900000031"
+    }
+  },
+  {
+    "model": "catalog.borrower",
+    "pk": 32,
+    "fields": {
+      "name": "Độc giả 32",
+      "email": "reader32@example.com",
+      "phone": "0900000032"
+    }
+  },
+  {
+    "model": "catalog.borrower",
+    "pk": 33,
+    "fields": {
+      "name": "Độc giả 33",
+      "email": "reader33@example.com",
+      "phone": "0900000033"
+    }
+  },
+  {
+    "model": "catalog.borrower",
+    "pk": 34,
+    "fields": {
+      "name": "Độc giả 34",
+      "email": "reader34@example.com",
+      "phone": "0900000034"
+    }
+  },
+  {
+    "model": "catalog.borrower",
+    "pk": 35,
+    "fields": {
+      "name": "Độc giả 35",
+      "email": "reader35@example.com",
+      "phone": "0900000035"
+    }
+  },
+  {
+    "model": "catalog.borrower",
+    "pk": 36,
+    "fields": {
+      "name": "Độc giả 36",
+      "email": "reader36@example.com",
+      "phone": "0900000036"
+    }
+  },
+  {
+    "model": "catalog.borrower",
+    "pk": 37,
+    "fields": {
+      "name": "Độc giả 37",
+      "email": "reader37@example.com",
+      "phone": "0900000037"
+    }
+  },
+  {
+    "model": "catalog.borrower",
+    "pk": 38,
+    "fields": {
+      "name": "Độc giả 38",
+      "email": "reader38@example.com",
+      "phone": "0900000038"
+    }
+  },
+  {
+    "model": "catalog.borrower",
+    "pk": 39,
+    "fields": {
+      "name": "Độc giả 39",
+      "email": "reader39@example.com",
+      "phone": "0900000039"
+    }
+  },
+  {
+    "model": "catalog.borrower",
+    "pk": 40,
+    "fields": {
+      "name": "Độc giả 40",
+      "email": "reader40@example.com",
+      "phone": "0900000040"
+    }
+  },
+  {
+    "model": "catalog.loan",
+    "pk": 1,
+    "fields": {
+      "book": 27,
+      "borrower": 6,
+      "borrow_date": "2025-01-21",
+      "return_date": "2025-04-25"
+    }
+  },
+  {
+    "model": "catalog.loan",
+    "pk": 2,
+    "fields": {
+      "book": 7,
+      "borrower": 16,
+      "borrow_date": "2025-03-24",
+      "return_date": null
+    }
+  },
+  {
+    "model": "catalog.loan",
+    "pk": 3,
+    "fields": {
+      "book": 4,
+      "borrower": 1,
+      "borrow_date": "2025-11-18",
+      "return_date": "2025-07-06"
+    }
+  },
+  {
+    "model": "catalog.loan",
+    "pk": 4,
+    "fields": {
+      "book": 34,
+      "borrower": 3,
+      "borrow_date": "2025-08-01",
+      "return_date": null
+    }
+  },
+  {
+    "model": "catalog.loan",
+    "pk": 5,
+    "fields": {
+      "book": 29,
+      "borrower": 16,
+      "borrow_date": "2025-11-01",
+      "return_date": "2025-01-24"
+    }
+  },
+  {
+    "model": "catalog.loan",
+    "pk": 6,
+    "fields": {
+      "book": 6,
+      "borrower": 18,
+      "borrow_date": "2025-09-22",
+      "return_date": null
+    }
+  },
+  {
+    "model": "catalog.loan",
+    "pk": 7,
+    "fields": {
+      "book": 5,
+      "borrower": 29,
+      "borrow_date": "2025-12-22",
+      "return_date": "2025-09-17"
+    }
+  },
+  {
+    "model": "catalog.loan",
+    "pk": 8,
+    "fields": {
+      "book": 19,
+      "borrower": 14,
+      "borrow_date": "2025-11-19",
+      "return_date": null
+    }
+  },
+  {
+    "model": "catalog.loan",
+    "pk": 9,
+    "fields": {
+      "book": 37,
+      "borrower": 8,
+      "borrow_date": "2025-03-24",
+      "return_date": "2025-05-06"
+    }
+  },
+  {
+    "model": "catalog.loan",
+    "pk": 10,
+    "fields": {
+      "book": 6,
+      "borrower": 40,
+      "borrow_date": "2025-10-06",
+      "return_date": null
+    }
+  },
+  {
+    "model": "catalog.loan",
+    "pk": 11,
+    "fields": {
+      "book": 35,
+      "borrower": 32,
+      "borrow_date": "2025-05-03",
+      "return_date": "2025-05-26"
+    }
+  },
+  {
+    "model": "catalog.loan",
+    "pk": 12,
+    "fields": {
+      "book": 24,
+      "borrower": 37,
+      "borrow_date": "2025-11-19",
+      "return_date": null
+    }
+  },
+  {
+    "model": "catalog.loan",
+    "pk": 13,
+    "fields": {
+      "book": 34,
+      "borrower": 6,
+      "borrow_date": "2025-03-19",
+      "return_date": "2025-06-23"
+    }
+  },
+  {
+    "model": "catalog.loan",
+    "pk": 14,
+    "fields": {
+      "book": 38,
+      "borrower": 3,
+      "borrow_date": "2025-01-24",
+      "return_date": null
+    }
+  },
+  {
+    "model": "catalog.loan",
+    "pk": 15,
+    "fields": {
+      "book": 30,
+      "borrower": 11,
+      "borrow_date": "2025-02-13",
+      "return_date": "2025-08-04"
+    }
+  },
+  {
+    "model": "catalog.loan",
+    "pk": 16,
+    "fields": {
+      "book": 7,
+      "borrower": 25,
+      "borrow_date": "2025-12-25",
+      "return_date": null
+    }
+  },
+  {
+    "model": "catalog.loan",
+    "pk": 17,
+    "fields": {
+      "book": 2,
+      "borrower": 13,
+      "borrow_date": "2025-11-21",
+      "return_date": "2025-08-04"
+    }
+  },
+  {
+    "model": "catalog.loan",
+    "pk": 18,
+    "fields": {
+      "book": 36,
+      "borrower": 16,
+      "borrow_date": "2025-10-11",
+      "return_date": null
+    }
+  },
+  {
+    "model": "catalog.loan",
+    "pk": 19,
+    "fields": {
+      "book": 31,
+      "borrower": 34,
+      "borrow_date": "2025-04-12",
+      "return_date": "2025-04-25"
+    }
+  },
+  {
+    "model": "catalog.loan",
+    "pk": 20,
+    "fields": {
+      "book": 30,
+      "borrower": 18,
+      "borrow_date": "2025-11-12",
+      "return_date": null
+    }
+  },
+  {
+    "model": "catalog.loan",
+    "pk": 21,
+    "fields": {
+      "book": 36,
+      "borrower": 10,
+      "borrow_date": "2025-10-05",
+      "return_date": "2025-12-07"
+    }
+  },
+  {
+    "model": "catalog.loan",
+    "pk": 22,
+    "fields": {
+      "book": 6,
+      "borrower": 26,
+      "borrow_date": "2025-07-10",
+      "return_date": null
+    }
+  },
+  {
+    "model": "catalog.loan",
+    "pk": 23,
+    "fields": {
+      "book": 40,
+      "borrower": 30,
+      "borrow_date": "2025-04-02",
+      "return_date": "2025-10-04"
+    }
+  },
+  {
+    "model": "catalog.loan",
+    "pk": 24,
+    "fields": {
+      "book": 7,
+      "borrower": 17,
+      "borrow_date": "2025-01-12",
+      "return_date": null
+    }
+  },
+  {
+    "model": "catalog.loan",
+    "pk": 25,
+    "fields": {
+      "book": 38,
+      "borrower": 24,
+      "borrow_date": "2025-11-09",
+      "return_date": "2025-03-20"
+    }
+  },
+  {
+    "model": "catalog.loan",
+    "pk": 26,
+    "fields": {
+      "book": 11,
+      "borrower": 14,
+      "borrow_date": "2025-05-23",
+      "return_date": null
+    }
+  },
+  {
+    "model": "catalog.loan",
+    "pk": 27,
+    "fields": {
+      "book": 30,
+      "borrower": 39,
+      "borrow_date": "2025-03-06",
+      "return_date": "2025-03-28"
+    }
+  },
+  {
+    "model": "catalog.loan",
+    "pk": 28,
+    "fields": {
+      "book": 39,
+      "borrower": 16,
+      "borrow_date": "2025-07-02",
+      "return_date": null
+    }
+  },
+  {
+    "model": "catalog.loan",
+    "pk": 29,
+    "fields": {
+      "book": 34,
+      "borrower": 31,
+      "borrow_date": "2025-06-19",
+      "return_date": "2025-05-13"
+    }
+  },
+  {
+    "model": "catalog.loan",
+    "pk": 30,
+    "fields": {
+      "book": 31,
+      "borrower": 24,
+      "borrow_date": "2025-02-12",
+      "return_date": null
+    }
+  },
+  {
+    "model": "catalog.loan",
+    "pk": 31,
+    "fields": {
+      "book": 2,
+      "borrower": 16,
+      "borrow_date": "2025-09-21",
+      "return_date": "2025-06-12"
+    }
+  },
+  {
+    "model": "catalog.loan",
+    "pk": 32,
+    "fields": {
+      "book": 4,
+      "borrower": 27,
+      "borrow_date": "2025-06-17",
+      "return_date": null
+    }
+  },
+  {
+    "model": "catalog.loan",
+    "pk": 33,
+    "fields": {
+      "book": 31,
+      "borrower": 14,
+      "borrow_date": "2025-02-18",
+      "return_date": "2025-03-03"
+    }
+  },
+  {
+    "model": "catalog.loan",
+    "pk": 34,
+    "fields": {
+      "book": 37,
+      "borrower": 5,
+      "borrow_date": "2025-11-15",
+      "return_date": null
+    }
+  },
+  {
+    "model": "catalog.loan",
+    "pk": 35,
+    "fields": {
+      "book": 7,
+      "borrower": 20,
+      "borrow_date": "2025-03-07",
+      "return_date": "2025-09-26"
+    }
+  },
+  {
+    "model": "catalog.loan",
+    "pk": 36,
+    "fields": {
+      "book": 22,
+      "borrower": 19,
+      "borrow_date": "2025-08-26",
+      "return_date": null
+    }
+  },
+  {
+    "model": "catalog.loan",
+    "pk": 37,
+    "fields": {
+      "book": 23,
+      "borrower": 38,
+      "borrow_date": "2025-11-28",
+      "return_date": "2025-08-06"
+    }
+  },
+  {
+    "model": "catalog.loan",
+    "pk": 38,
+    "fields": {
+      "book": 33,
+      "borrower": 20,
+      "borrow_date": "2025-11-11",
+      "return_date": null
+    }
+  },
+  {
+    "model": "catalog.loan",
+    "pk": 39,
+    "fields": {
+      "book": 22,
+      "borrower": 30,
+      "borrow_date": "2025-08-05",
+      "return_date": "2025-11-27"
+    }
+  },
+  {
+    "model": "catalog.loan",
+    "pk": 40,
+    "fields": {
+      "book": 15,
+      "borrower": 23,
+      "borrow_date": "2025-11-19",
+      "return_date": null
+    }
+  }
+]

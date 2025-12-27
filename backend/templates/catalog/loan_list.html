@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block title %}Danh sách mượn/trả{% endblock %}
+{% block content %}
+<h2>📚 Danh sách mượn/trả</h2>
+<a href="{% url 'loan_create' %}" class="btn btn-success mb-3">+ Ghi nhận mượn sách</a>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Sách</th>
+      <th>Độc giả</th>
+      <th>Ngày mượn</th>
+      <th>Ngày trả</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for l in loans %}
+    <tr>
+      <td>{{ l.book.title }}</td>
+      <td>{{ l.borrower.name }}</td>
+      <td>{{ l.borrow_date }}</td>
+      <td>
+        {% if l.return_date %}
+          {{ l.return_date }}
+        {% else %}
+          <div class="d-flex justify-content-between align-items-center">
+            <span class="text-danger fw-bold">Chưa trả</span>
+            <form method="post" action="{% url 'confirm_return' l.pk %}">
+              {% csrf_token %}
+              <button type="submit" class="btn btn-outline-success btn-sm ms-2">✅ Xác nhận đã trả</button>
+            </form>
+          </div>
+        {% endif %}
+      </td>
+    </tr>
+    {% empty %}
+    <tr><td colspan="4">Chưa có lượt mượn nào.</td></tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

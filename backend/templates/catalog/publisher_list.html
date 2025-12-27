@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block title %}Danh sách nhà xuất bản{% endblock %}
+{% block content %}
+<div class="container mt-4">
+  <h2 class="mb-4">🏢 Danh sách nhà xuất bản</h2>
+  <div class="text-end mb-3">
+    <a href="{% url 'publisher_create' %}" class="btn btn-success">➕ Thêm NXB</a>
+  </div>
+  <table class="table table-striped table-hover">
+    <thead class="table-info">
+      <tr>
+        <th class="text-start">Tên NXB</th>
+        <th class="text-end">Hành động</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for publisher in publishers %}
+      <tr>
+        <td class="text-start">{{ publisher.name }}</td>
+        <td class="text-end">
+          <div class="d-inline-flex gap-2 justify-content-end">
+            <a href="{% url 'publisher_update' publisher.pk %}" class="btn btn-warning btn-sm">✏️ Sửa</a>
+            <a href="{% url 'publisher_delete' publisher.pk %}" class="btn btn-danger btn-sm">🗑️ Xóa</a>
+          </div>
+        </td>
+      </tr>
+      {% empty %}
+      <tr><td colspan="2" class="text-center">Chưa có NXB nào.</td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endblock %}

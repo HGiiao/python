@@ -1,0 +1,138 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Hệ thống Quản lý Thư viện{% endblock %}
+{% block content %}
+
+<style>
+body {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.hero {
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  padding: 60px 20px;
+  border-radius: 12px;
+}
+.card {
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+footer {
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 8px;
+  padding: 10px;
+}
+.dark-mode {
+  background-color: #121212 !important;
+  color: #f0f0f0 !important;
+}
+.dark-mode .card {
+  background-color: rgba(40,40,40,0.9);
+  color: #f0f0f0;
+}
+.dark-mode .hero {
+  background: rgba(20,20,20,0.8);
+}
+</style>
+
+<div class="container mt-5">
+  <!-- Hero Section -->
+  <div class="hero text-center mb-5 shadow-lg">
+    <h1 class="display-4 fw-bold">📚 Hệ thống Quản lý Thư viện</h1>
+    <p class="lead">Nơi lưu giữ tri thức, kết nối độc giả và quản lý sách hiệu quả.</p>
+    <div class="d-flex justify-content-center gap-3 mt-4">
+      <a href="{% url 'book_list' %}" class="btn btn-outline-light btn-lg">📖 Danh sách sách</a>
+      <a href="{% url 'dashboard' %}" class="btn btn-outline-warning btn-lg">📊 Thống kê</a>
+      <button id="toggle-dark" class="btn btn-outline-info btn-lg">🌗 Dark Mode</button>
+    </div>
+  </div>
+
+  <!-- Introduction Section -->
+  <div class="row mb-5">
+    <div class="col-md-10 offset-md-1">
+      <div class="card shadow-sm border-info">
+        <div class="card-body">
+          <h3 class="text-info fw-bold mb-3">🎯 Giới thiệu hệ thống</h3>
+          <p class="fs-5">
+            Hệ thống Quản lý Thư viện là một nền tảng số hóa toàn diện, giúp các đơn vị giáo dục và thư viện hiện đại hóa quy trình quản lý sách, độc giả và hoạt động mượn/trả. 
+            Được phát triển bằng Django và Bootstrap, hệ thống đảm bảo tính ổn định, bảo mật và dễ sử dụng cho mọi đối tượng.
+          </p>
+          <p>
+            Với giao diện trực quan, khả năng mở rộng linh hoạt và tích hợp thống kê thông minh, hệ thống mang lại:
+          </p>
+          <ul>
+            <li>✅ Tiết kiệm thời gian quản lý và tra cứu thông tin</li>
+            <li>✅ Giảm thiểu sai sót trong quá trình mượn/trả</li>
+            <li>✅ Tăng cường khả năng phân tích và báo cáo hoạt động thư viện</li>
+            <li>✅ Hỗ trợ đa người dùng, phân quyền rõ ràng</li>
+          </ul>
+          <p>
+            Hệ thống phù hợp cho:
+          </p>
+          <ul>
+            <li>🏫 Trường học, thư viện học đường</li>
+            <li>🏛️ Thư viện công cộng, cơ quan nhà nước</li>
+            <li>📚 Trung tâm đào tạo, tổ chức giáo dục</li>
+          </ul>
+          <p class="mt-3">
+            Với mục tiêu nâng cao hiệu quả quản lý tri thức, hệ thống là công cụ lý tưởng cho mọi đơn vị cần quản lý kho sách chuyên nghiệp.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Feature Modules -->
+  <div class="row g-4">
+    <div class="col-md-3">
+      <div class="card shadow-sm h-100 border-primary text-center">
+        <div class="card-body">
+          <h4 class="card-title text-primary">📘 Quản lý Sách</h4>
+          <p class="card-text">Thêm, sửa, phân loại và tìm kiếm sách dễ dàng.</p>
+          <a href="{% url 'book_list' %}" class="btn btn-primary">Xem sách</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card shadow-sm h-100 border-warning text-center">
+        <div class="card-body">
+          <h4 class="card-title text-warning">🧑‍🎓 Quản lý Độc giả</h4>
+          <p class="card-text">Theo dõi thông tin độc giả và lịch sử mượn sách.</p>
+          <a href="{% url 'borrower_list' %}" class="btn btn-warning">Xem độc giả</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card shadow-sm h-100 border-success text-center">
+        <div class="card-body">
+          <h4 class="card-title text-success">🔄 Mượn / Trả</h4>
+          <p class="card-text">Quản lý quy trình mượn trả sách nhanh chóng, chính xác.</p>
+          <a href="{% url 'loan_list' %}" class="btn btn-success">Xem mượn/trả</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card shadow-sm h-100 border-secondary text-center">
+        <div class="card-body">
+          <h4 class="card-title text-secondary">⚙️ Dữ liệu phụ</h4>
+          <p class="card-text">Quản lý nhà xuất bản, thể loại, tác giả và các dữ liệu liên quan.</p>
+          <a href="{% url 'manage_metadata' %}" class="btn btn-secondary">Quản lý</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.getElementById("toggle-dark").addEventListener("click", function () {
+    document.body.classList.toggle("dark-mode");
+  });
+</script>
+
+{% endblock %}

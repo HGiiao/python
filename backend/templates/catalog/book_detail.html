@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Chi tiết sách{% endblock %}
+{% block content %}
+<h2>{{ book.title }}</h2>
+<ul class="list-group">
+  <li class="list-group-item"><strong>Tác giả:</strong> {{ book.author.name }}</li>
+  <li class="list-group-item"><strong>Thể loại:</strong> {{ book.category.name }}</li>
+  <li class="list-group-item"><strong>NXB:</strong> {{ book.publisher.name }}</li>
+  <li class="list-group-item"><strong>Năm xuất bản:</strong> {{ book.publish_year }}</li>
+  <li class="list-group-item"><strong>Số lượng:</strong> {{ book.quantity }}</li>
+</ul>
+<a href="{% url 'book_list' %}" class="btn btn-secondary mt-3">← Quay lại danh sách</a>
+{% endblock %}

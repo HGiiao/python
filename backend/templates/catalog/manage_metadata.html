@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+{% block title %}Quản lý dữ liệu phụ{% endblock %}
+{% block content %}
+<div class="container mt-4">
+  <h2 class="mb-4 text-center">📑 Quản lý Tác giả, Thể loại, Nhà xuất bản</h2>
+
+  <!-- Tác giả -->
+  <div class="card mb-4 shadow-sm">
+    <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+      <h5 class="mb-0">👤 Tác giả</h5>
+      <a href="{% url 'author_create' %}" class="btn btn-light btn-sm">➕ Thêm tác giả</a>
+    </div>
+    <div class="card-body">
+      <table class="table table-hover">
+        <thead class="table-primary">
+          <tr>
+            <th class="text-start">Tên tác giả</th>
+            <th class="text-end">Hành động</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for author in authors %}
+          <tr>
+            <td class="text-start">{{ author.name }}</td>
+            <td class="text-end">
+              <a href="{% url 'author_update' author.pk %}" class="btn btn-warning btn-sm">✏️ Sửa</a>
+              <a href="{% url 'author_delete' author.pk %}" class="btn btn-danger btn-sm">🗑️ Xóa</a>
+            </td>
+          </tr>
+          {% empty %}
+          <tr><td colspan="2" class="text-center">Chưa có tác giả nào.</td></tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Thể loại -->
+  <div class="card mb-4 shadow-sm">
+    <div class="card-header bg-success text-white d-flex justify-content-between align-items-center">
+      <h5 class="mb-0">📂 Thể loại</h5>
+      <a href="{% url 'category_create' %}" class="btn btn-light btn-sm">➕ Thêm thể loại</a>
+    </div>
+    <div class="card-body">
+      <table class="table table-hover">
+        <thead class="table-success">
+          <tr>
+            <th class="text-start">Tên thể loại</th>
+            <th class="text-end">Hành động</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for category in categories %}
+          <tr>
+            <td class="text-start">{{ category.name }}</td>
+            <td class="text-end">
+              <a href="{% url 'category_update' category.pk %}" class="btn btn-warning btn-sm">✏️ Sửa</a>
+              <a href="{% url 'category_delete' category.pk %}" class="btn btn-danger btn-sm">🗑️ Xóa</a>
+            </td>
+          </tr>
+          {% empty %}
+          <tr><td colspan="2" class="text-center">Chưa có thể loại nào.</td></tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Nhà xuất bản -->
+  <div class="card mb-4 shadow-sm">
+    <div class="card-header bg-info text-white d-flex justify-content-between align-items-center">
+      <h5 class="mb-0">🏢 Nhà xuất bản</h5>
+      <a href="{% url 'publisher_create' %}" class="btn btn-light btn-sm">➕ Thêm NXB</a>
+    </div>
+    <div class="card-body">
+      <table class="table table-hover">
+        <thead class="table-info">
+          <tr>
+            <th class="text-start">Tên NXB</th>
+            <th class="text-end">Hành động</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for publisher in publishers %}
+          <tr>
+            <td class="text-start">{{ publisher.name }}</td>
+            <td class="text-end">
+              <a href="{% url 'publisher_update' publisher.pk %}" class="btn btn-warning btn-sm">✏️ Sửa</a>
+              <a href="{% url 'publisher_delete' publisher.pk %}" class="btn btn-danger btn-sm">🗑️ Xóa</a>
+            </td>
+          </tr>
+          {% empty %}
+          <tr><td colspan="2" class="text-center">Chưa có NXB nào.</td></tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+{% endblock %}

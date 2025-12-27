@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block title %}Danh sách tác giả{% endblock %}
+{% block content %}
+<div class="container mt-4">
+  <h2 class="mb-4">👤 Danh sách tác giả</h2>
+  <div class="text-end mb-3">
+    <a href="{% url 'author_create' %}" class="btn btn-success">➕ Thêm tác giả</a>
+  </div>
+  <table class="table table-striped table-hover">
+    <thead class="table-primary">
+      <tr>
+        <th class="text-start">Tên tác giả</th>
+        <th class="text-end">Hành động</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for author in authors %}
+      <tr>
+        <td class="text-start">{{ author.name }}</td>
+        <td class="text-end">
+          <a href="{% url 'author_update' author.pk %}" class="btn btn-warning btn-sm">✏️ Sửa</a>
+          <a href="{% url 'author_delete' author.pk %}" class="btn btn-danger btn-sm">🗑️ Xóa</a>
+        </td>
+      </tr>
+      {% empty %}
+      <tr><td colspan="2" class="text-center">Chưa có tác giả nào.</td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endblock %}

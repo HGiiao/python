@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Thêm / Sửa thể loại{% endblock %}
+{% block content %}
+<div class="container mt-4">
+  <h2 class="mb-4">📂 Thêm / Sửa thể loại</h2>
+  <form method="post" class="card p-3 shadow-sm">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <div class="d-flex justify-content-start gap-2 mt-3">
+      <button type="submit" class="btn btn-success">💾 Lưu</button>
+      <a href="{% url 'category_list' %}" class="btn btn-secondary">Hủy</a>
+    </div>
+  </form>
+</div>
+{% endblock %}
